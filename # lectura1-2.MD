@@ -3,7 +3,7 @@ Netflix provided 100M ratings (from 1 to 5) of 17K movies by 500K users. They us
 
 One the one hand, he did programming with some codes. In my opinion those code has made easy to understand the methods that he has used. For example, static inline and predictRating().
 
-they needed to define a model with smaller number of parameters which is called SVD. In my opinion, he considered to exceptions well. For example, what will happen if there is a user who has only rated one movie or if there's a movie which only appears in the training set once, with a rating of 1. 
+Furthermore,they needed to define a model with smaller number of parameters which is called SVD. In my opinion, he considered to exceptions well. For example, what will happen if there is a user who has only rated one movie or if there's a movie which only appears in the training set once, with a rating of 1. 
 On the other hand, the author used lrate = 0.001, but he did not explain that why Lrate is 0.001. for example, if we assume Lrate =0.002 what will happen? and he did not explain why it cannot be another value. 
 
 Furthermore, the author considers to some exception, I have an idea what happen if a user watched a movie several times and rated several time for each time with different rating just for one movies? For example, user X watched movie Y twice then user x gets rating 4 to movie Y, after he watches twice movie Y and gets rating 2. In my opinion, he should have considered to this kind of exception and computed SVD for this.
