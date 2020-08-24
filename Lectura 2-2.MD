@@ -4,7 +4,7 @@ On the one hand, the authors used a different approach by using item pairs as tr
 
 Moreover, it is kind of merit that figures 1 and 2 could have a suitable visualization for readers, they could explain how to calculated the user’s preferences for items or how to skipped some of preferences that they could not infer anything from those well. So, I could understand it well.
 
-One of the other positive points of this paper is that the authors used BPR and optimized, one of the powerful method to solve personalized ranking task. In my opinion, they explained the steps of their optimization of BPR and posterior estimator for optimal personalized ranking.
+One of the other positive points of this paper is that the authors used BPR and optimized, one of the powerful method to solve personalized ranking task. In my opinion, they explained the steps of their optimization of BPR and posterior estimator for optimal personalized ranking well. In addition, in general they used various methods to obtain results. It is one of the another merit in this paper. Because they have tested their model with several conditions.
 
 It is interesting for me, although most of these kinds of articles just have been studied either on implicit or explicit feed the authors used two kinds of datasets for example one dataset with an explicit feedback for Netflix dataset and another is an implicit feedback for purchases records. They could compare the results and reached interested results. 
 
