@@ -10,3 +10,4 @@ It is interesting for me, although most of these kinds of articles just have bee
 
 On the other hand, they used some of algorithms to explain and study their models. But there is no discussion of SVD with the model. In my opinion, they should have studied the model with SVD too as an another popular method, although they spoke several times about that. So, I think that if they would use that, they could improve the result with comparison of some known methods.
 
+Furthermore, the authors wrote that if a user has viewed an item i1 and not item i2, they assumed that the user has preferred i2. In my opinion, this is not an appropriate and correct assumption. Because maybe the user is not aware of presence of item i2. It does not mean the user does not like the item.  
