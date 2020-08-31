@@ -9,5 +9,5 @@ On the other hand, they introduced and explained a lot of recommendation systems
 
 The authors they explained two kinds of robustness as I expressed above. In my opinion one of the other types of robustness is privacy contravention. In fact, there can be found a third party who changes the principal preferences’ user. So, it makes fake information. 
 
-The authors implied that there are two scenarios for Online evaluation of ranking. But I think that there can found another scenario like this the reference list can contain unknown items, preference items, unreferenced items respectively. Why they did not consider scenario 3? I believe that it can be useful to make serendipity.
+The authors implied that there are two scenarios for Online evaluation of ranking. But I think that there can found another scenario like this the reference list can contain unknown items, preference items, unreferenced items respectively. Why they did not consider scenario 3? I believe that it can be useful to make serendipity and novelty.
 
