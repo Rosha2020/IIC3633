@@ -7,8 +7,10 @@ Another positive point of this paper is proposing Asymmetric-SVD. I think that t
 
 The authors used recall and precision together to compute accuracy metrics. In my opinion it is kind of merit because using only recall to evaluate performance of system is not suitable. It should be used with precision. Because their model needs to have correct prediction with high value. So, it is positive point that they used these measures together. However, they could have used F1 measure. Because F1 can give more accurate evaluation on fp and tn.
 
-On the other hand, the authors assumed that the test set contains only 5-stars for both of data sets. But they did not explain why do they assume just 5-stars to probe set. So, I think that it is a negative point because they ignored some realities in ratings with only 5-stars. They should have emphasized more efforts on real ratings
+On the other hand, the authors assumed that the test set contains only 5-stars for both of data sets. But they did not explain why do they assume just 5-stars to probe set. So, I think that it is a negative point because they ignored some realities in ratings with only 5-stars. They should have emphasized more efforts on real ratings.
+
 They used a formulize to compute the item-item similarity as the coefficient dij. There was a ʎ1 is 100. But they did not explain why the typical value of ʎ1. 
-They told that Three of the algorithms – TopPop, NNCosNgbr, and PureSVD are not sensible from an error minimization viewpoint and cannot be assessed by an RMSE measure. But they did not explain why they ignored RMSE measure. In my opinin, they should have used RMSE measure because in the paper there was not outliers. So, it could be suitable measure to evaluate above algorithms and they could have more interesting result.
+
+They expressed that Three of the algorithms – TopPop, NNCosNgbr, and PureSVD are not sensible from an error minimization viewpoint and cannot be assessed by an RMSE measure. But they did not explain why they ignored RMSE measure. In my opinin, they should have used RMSE measure because in the paper there was not outliers. So, it could be suitable measure to evaluate above algorithms and they could have more interesting result.
 
 Another negative point is that in part of result they needed to have a table to show their result but they did not use tables.
