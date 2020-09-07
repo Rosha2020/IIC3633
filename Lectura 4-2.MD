@@ -1,1 +1,16 @@
 
+In part of related works, there two clustering methods such as agglomerative and partitional. They introduced these methods in terms of advantage or disadvantages, the complexity of these algorithms. They explained latent semantic indexing method. They proposed to use non-negative matrix factorization (NMF) to find the latent semantic structure for the document corpus, and identified document clusters in the derived latent semantic space. They compared the LSI and NMF. They formulize document representation by weighted term-frequency vector to represent each document then they clustered documents based on NMF. They constructed the term document matrix which any column represents the weighted term-frequency vector of document then the NMF perform on matrix to gain two non-negative matrices after that they were normalized and were determined the cluster label of each data point. Then they compare NMF VS. SVD in terms of data distribution. They gave some information about their data they used two kinds of methods to evaluate metrics such as AC and MI. finally, they improve the document clustering accuracy with two representative spectral clustering methods such as Average Association and Normalized Cut on TDT2 and Reuters corpus.
+
+On the one hand, it is positive point that they used AC, MI, MNF and NMF-NCW as an evaluation metrics. In my opinion, their results are interesting because the values that they obtained very near together. It shows that structure of the proposed methods has been improved gradually.
+
+It is kind of merit because they compered LSI and NMF. I think that in their comparison, they considered to several dimensions. So, they wrote a complete comparison. For example, they stated about overlap condition which of them is better to use.
+
+It is positive point they clustered the documents Based on NMF. Because one of ability of NMF algorithm is to automatically extract sparse and easily interpretable factors. So according to their dataset, it can be useful for their data. In general, the section of Document Clustering Based on NMF has been explained well and I think that it was very creativity.
+
+On the other hand, the authors used SVD algorithm to distribute and cluster data. In my opinion, they could use SVM to do that. Because SVM is one of the most powerful algorithm to cluster data. In addition, SVM works relatively well to clear margin of separation between classes. It is not negative point but they used SVM too maybe they have more interesting results.
+
+They discarded documents with multiple category labels, and removed the clusters with less than 5 documents. In my opinion, it is a negative point. Because they manipulate their data. It has negative effect on accuracy of clustering. Consequently, maybe they had inaccurate result.
+
+They evaluated performance their improved methods such as AA and NC. In fact, they obtained the interesting result on TDT2 and Reuters corpus. But they should have evaluated of computational complexity of these algorithms. Therefore, with calculating computational complexity, they could determine if there was any computational complexity of log n or n^2. As they expressed on section 2, quadratic order of complexity, bottom-up agglomerative clustering methods could become computationally prohibitive for clustering tasks that deal with millions of data points.
+
+
