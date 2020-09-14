@@ -1,1 +1,16 @@
 
+Combining predictions for accurate recommender systems
+
+In this paper, they divided the Netflix Prize probe set randomly in two halves, a pTrain and a pTest set. To analyze the application of ensemble learning, they used some of state of the art algorithms such as SVD, Neighborhood Based Approaches, Restricted Boltzmann Machine, Asymmetric Factor Model and Global Effects to blend the algorithms to improve their accuracy (RMSE)and gain better performances. Finally, they evaluated and compared performance, RMSE, weight and parameters of those algorithms. 
+
+On the one hand, in part of Binned Linear Regression, the training set can be split by using a histogram on one of the support, time and frequency criteria. In my opinion, time and frequency are interesting criteria. For example, dating or time of rating can be important because maybe a user’s rate relevant to many years ago so it cannot be useful for now. Or for frequency rating in a particular day maybe a user rates items in a particular day for instance every Sunday when is a user is free and has time to visit and rate. So it shows that a specific user visits items in a particular day so the blender has the ability to give predictions other weights when a user votes many times on a particular day(Sunday). 
+
+They explained why SVD is one of probably the most popular collaborative filtering technique clearly in terms of memory consumption and optimal asymptotic runtime behavior and O(1) runtime per prediction. In my opinion, it is positive point that in this paper, the authors considered to time complexity for all of algorithms that they used. Because time complexity is one the of the most important measure to outperformance of combing algorithms. 
+
+On the other hand, they explained about residual training that several models are trained sequentially. In fact, a model in the sequence is trained on the errors of the previous mode. But in my opinion, it is negative point for the paper because they should have explained training sequence of the models. I think that it is very important that we know what model should be train first or second or etc. because a model is trained based on error of previous model. So if an inappropriate model is trained as a first model, we cannot obtain a suitable residual training and final blend.
+
+Moreover, they used RMSE to evaluate accuracy blinding algorithms, not only should have used they more than one accuracy measure but also they could have explained their selection reasons of RMSE according to their dataset. In addition, they could have used Huber loss which combines the advantages of the mean squared error and the mean absolute error and it also does not have disadvantage of them. In fact, in order to learning in neural networks, using Huber loss, they could have reduction error measure and derivative. Consequently, they could have access to minimum value of Huber loss.
+
+Furthermore, they expressed that the k-nearest neighbors algorithm and kernel ridge regression are computationally too costly to be applied to the whole p rain set. But they did not explain that why those algorithms are costly? In what terms are they too costly? In terms of memory consumption or complexity time? Because they used two of the most important algorithms just to train small random subsets of pTrain without convinced reasons.
+
+ 
